@@ -1,5 +1,5 @@
 list_1d = ["Python", "Java", "C++", "JavaScript", "PHP"]
-print("=== POINT 1a: One-dimensional list ===")
+print("One-dimensional list")
 print("Original list:", list_1d)
 print()
 
@@ -16,7 +16,7 @@ print()
 
 
 second_element = list_1d[1]
-print("POINT 2a: Access to the second element")
+print("Access to the second element")
 print("Second element of the list (index 1):", second_element)
 print()
 
@@ -27,14 +27,14 @@ print("Element at row 2, column 2 (indices [1][1]):")
 print()
 
 
-print("=== POINT 3a: Insertion at position 3 ")
+print("Insertion at position 3")
 print("List before inserting:", list_1d)
 list_1d.insert(2, "Estructura de datos")
 print("List after inserting:", list_1d)
 print()
 
 
-print("=== POINT 3b: Deletion at third row and third column ===")
+print("Deletion at third row and third column")
 print("Matrix before deleting:")
 for row in list_2d:
     print(row)
